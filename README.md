@@ -1,4 +1,3 @@
-```markdown
 # 🏢 Aplikasi Manajemen Karyawan (WinForms C#)
 
 Sebuah aplikasi desktop interaktif berbasis **C# Windows Forms (.NET)** untuk mengelola pendataan karyawan perusahaan. Proyek ini dibangun untuk mempraktikkan konsep Pemrograman Berorientasi Objek (OOP), manipulasi UI/UX dengan *Dialog Box*, serta penerapan validasi input tingkat lanjut untuk mencegah *error* dan anomali data.
