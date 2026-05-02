@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
-using System.Text.RegularExpressions; // WAJIB DITAMBAHKAN UNTUK VALIDASI FORMAT
+using System.Text.RegularExpressions; 
 
 namespace AplikasiKaryawan
 {
