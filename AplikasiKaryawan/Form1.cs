@@ -6,14 +6,12 @@ namespace AplikasiKaryawan
 {
     public partial class Form1 : Form
     {
-        // 1. Ganti List biasa menjadi BindingList
         BindingList<Karyawan> listKaryawan = new BindingList<Karyawan>();
 
         public Form1()
         {
             InitializeComponent();
 
-            // 2. Cukup set DataSource SATU KALI.
             dgvKaryawan.DataSource = listKaryawan;
         }
 
@@ -30,7 +28,6 @@ namespace AplikasiKaryawan
                 {
                     Karyawan karyawanBaru = frmEntri.GetKaryawan();
 
-                    // 3. Tinggal tambahkan ke list, dan tabel akan OTOMATIS ter-update di layar!
                     listKaryawan.Add(karyawanBaru);
                 }
             }
